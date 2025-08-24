@@ -1,0 +1,52 @@
+# --- Python build/cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.python-version
+
+# --- Virtual envs & local config ---
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- Testing / tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb~
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+
+# --- SLURM / HPC logs ---
+logs/
+slurm-*.out
+slurm-*.err
+# (uncomment if your cluster writes job outputs like these)
+# *.o[0-9]*
+# *.e[0-9]*
+
+# --- Project data & outputs ---
+# raw data (don’t commit large datasets)
+data/
+
+# results/checkpoints: keep directory but ignore JSON outputs inside it
+output_checkpoints/**/*.json
+
+output_checkpoints/
+med_students/
+

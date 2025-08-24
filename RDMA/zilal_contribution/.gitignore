@@ -1,0 +1,7 @@
+# Ignore all files in logs folder
+logs/
+
+# Ignore all JSON files inside output_checkpoints folder
+output_checkpoints/
+notebook/ 
+
