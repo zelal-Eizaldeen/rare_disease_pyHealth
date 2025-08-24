@@ -4,4 +4,4 @@ logs/
 # Ignore all JSON files inside output_checkpoints folder
 output_checkpoints/
 notebook/ 
-
+processed_ids_folder/
