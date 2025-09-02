@@ -42,11 +42,14 @@ slurm-*.err
 
 # --- Project data & outputs ---
 # raw data (don’t commit large datasets)
-data/
+data/ 
 
 # results/checkpoints: keep directory but ignore JSON outputs inside it
 output_checkpoints/**/*.json
 
 output_checkpoints/
 med_students/
+rdma_venv/
+RDMA/zilal_contribution/figs/
+RDMA/zilal_contribution/mimic4_note/
 

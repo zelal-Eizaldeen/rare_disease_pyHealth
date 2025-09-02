@@ -1,23 +1,31 @@
-faiss_cpu
-fastembed
-fuzzywuzzy
-groq
-joblib
-negspacy
-nltk
-numpy
-pandas
-peft
-rapidfuzz
-ratelimit
-scipy
-scispacy
-sent2vec
-sentence_transformers
-spacy
-stanza
 torch
+torchvision
+# rdkit
+scikit-learn
+networkx
+pandas
+pandarallel
+mne
+urllib3
+numpy
 tqdm
+polars
 transformers
-accelerate
+pydantic
+nltk
+pyarrow
+
+
+# These for RDMA 
+ratelimit
+# groq
+fuzzywuzzy
+sentence-transformers
+peft  #enables you to adapt pre-trained models to new tasks using a small number of trainable parameters
+faiss-gpu
+numpy<2.0
 bitsandbytes
+vllm
+opencv-python-headless
+pyhealth
+
