@@ -14,7 +14,8 @@ from tqdm import tqdm
 import os
 import sys
 
-RDMA_PATH='/projects/illinois/eng/cs/jimeng/zelalae2/scratch/RDMA'
+RDMA_PATH='/projects/illinois/eng/cs/user/scratch/RDMA'
+
 sys.path.append(RDMA_PATH)
 # current_dir = os.path.dirname(os.path.abspath(__file__))
 # parent_dir = os.path.dirname(current_dir)
